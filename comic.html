@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horror books</title>
+    <style>
+        body {
+            background: url("/genre.jfif");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .page {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            padding: 50px;
+            justify-content: space-evenly;
+            color: white;
+        }
+
+        img {
+            height: 250px;
+            width: 125px;
+            border: 5px solid turquoise;
+            margin-bottom: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div id="01">
+            <img src="https://img.huffingtonpost.com/asset/5bb6156b3c000020010d2776.jpeg?ops=scalefit_720_noupscale"
+                alt="wolverine book cover photo">
+
+            <p>
+                Genre:Comic
+                <br>
+                writer: Maria Ramsey
+                <br>
+                Price: 90$
+            </p>
+            <button onclick="myFunction1()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction1(){
+                    var str = "You have successfully purchased a book named WOLVERINE ";
+                    alert(str);
+                }
+            </script>
+        </div>
+        <div id="02">
+            <img src="https://ogden_images.s3.amazonaws.com/www.lockhaven.com/images/2020/03/11171601/CM-1942-602x840.jpg"
+                alt="captain marvel BOOK COVER PHOTO">
+
+            <p>
+                Genre: Comic
+                <br>
+                writer: Mara Franzis
+                <br>
+                Price: 89$
+            </p>
+            <button onclick="myFunction2()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction2(){
+                    var str = "You have successfully purchased a book named CAPTAIN MARVEL";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <div id="03">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxb2ezeVVTd6Pg9YecPe2zUf_xBkbXZgEnw&usqp=CAU"
+                alt="action comic cover phpto">
+
+            <p>
+                Genre: Comic
+                <br>
+                Writer: XYZ
+                <br>
+                Price: 150$
+            </p>
+            <button onclick="myFunction3()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction3(){
+                    var str = "You have successfully purchased a book named ACTION";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <div id="04">
+            <img src="https://s3.medialoot.com/blog-images/wegraphics/img15.jpg" alt="TOUR book cover photo">
+            <p>
+                Genre: Comic
+                <br>
+                Writer: Adam Nevill
+                <br>
+                Price: 50$
+            </p>
+            <button onclick="myFunction4()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction4(){
+                    var str = "You have successfully purchased a book named TOUR";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <script>
+            function cart() {
+                var str = "Your book has added to cart successfully !"
+                alert(str);
+            }
+        </script>
+        </script>
+</body>
+
+</html>

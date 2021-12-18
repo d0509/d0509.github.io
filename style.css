@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+   
+    background: url(https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGlicmFyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+ 
+h1{
+    /* display: flex;
+    justify-content: space-between; */
+    margin-top:7.5%;
+    margin-left: 15%;
+    font-size: 75px;
+    padding: 12.5%;
+    text-align: justify;
+
+}
+
+.header a{
+    text-align: right;
+    margin: 5%;
+    padding: 5px;
+    color: blanchedalmond;
+    font-size: larger;
+}

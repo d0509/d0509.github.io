@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thriller-books</title>
+    <style>
+        body {
+            background-image: url(/genre.jfif);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .page {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            padding: 50px;
+            justify-content: space-evenly;
+            border: turquoise;
+            color: white;
+        }
+
+        img {
+            height: 250px;
+            width: 125px;
+            border: 5px solid turquoise;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+        <div id="01">
+            <img src="data:image/jpeg;base64,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"
+                alt="breathe book cover photo">
+            <!--  -->
+
+            <p>
+                Genre:thriller
+                <br>
+                writer: Enrico Fermi
+                <br>
+                Price: 99$
+            </p>
+
+            <button onclick="myFunction1()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction1(){
+                    var str = "You have successfully purchased a book named BREATHE";
+                    alert(str);
+                }
+            </script>
+
+        </div>
+        <div id="02">
+            <img src="https://marketplace.canva.com/EAD7YH8bebE/1/0/251w/canva-white-bold-text-thriller-mystery-book-cover-CejxvxrTCyg.jpg"
+                alt="DON'T GO THERE BOOK COVER PHOTO">
+
+            <p>
+                Genre: Thriller
+                <br>
+                writer: Juliana Silva
+                <br>
+                Price: 85$
+            </p>
+            <button onclick="myFunction2()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction2(){
+                    var str = "You have successfully purchased a book named DON'T GO THERE";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <div id="03">
+            <img src="https://marketplace.canva.com/EAD7Weekeqk/1/0/1003w/canva-dark-silhouette-thriller-mystery-book-cover-jH6NnqQtUy0.jpg"
+                alt="the dark side of winter book cover phpto">
+
+            <p>
+                Genre: Thriller
+                <br>
+                Writer: Morgan Maxwell
+                <br>
+                Price: 240$
+            </p>
+
+            <button onclick="myFunction3()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction3(){
+                    var str = "You have successfully purchased a book named THE DARK SIDE OF WINTER";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <div id="04">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsF0CNkRjHsAY7Ka-Io7kNgDEjVHG4kgylAA&usqp=CAU"
+                alt="The Forgotten Mother book cover photo">
+            <p>
+                Genre: Thriller
+                <br>
+                Writer: ABC
+                <br>
+                Price: 50$
+            </p>
+            <button onclick="myFunction4()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction4(){
+                    var str = "You have successfully purchased a book named THE FORGOTTEN MOTHER";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <script>
+            
+        function cart(){
+        var str = "Your book has added to cart successfully !"
+        alert(str);
+        }
+        </script>
+
+
+</body>
+
+</html>

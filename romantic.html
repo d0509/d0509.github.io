@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thriller-books</title>
+    <style>
+        body {
+            background-image: url(/genre.jfif);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .page {
+            display: flex;
+            margin: 20px;
+            padding: 50px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            border: turquoise;
+            color: white;
+        }
+
+        img {
+            height: 250px;
+            width: 125px;
+            border: 5px solid turquoise;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+        <div id="01">
+            <img src="https://i.pinimg.com/originals/4a/37/fb/4a37fb6f429a1de89c63fba836509a16.jpg"
+                alt="HIS BELOVED BRIDE book cover photo">
+            <!--  -->
+
+            <p>
+                Genre: Romance
+                <br>
+                writer: Enrico Fermi
+                <br>
+                Price: 99$
+            </p>
+
+            <button onclick="myFunction1()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction1() {
+                    var str = "You have successfully purchased a book named HIS BELOVED BRIDE  ";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+
+        <div id="02">
+            <img src="https://marketplace.canva.com/EAD7YJ1ZVcQ/1/0/1003w/canva-white-script-overlay-romance-chick-lit-book-cover-TdiAhIo-JVk.jpg"
+                alt="THE SUMMER HOPE BOOK COVER PHOTO">
+
+            <p>
+                Genre: Romance
+                <br>
+                writer: Juliana Silva
+                <br>
+                Price: 85$
+            </p>
+            <button onclick="myFunction2()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction2() {
+                    var str = "You have successfully purchased a book named THE SUMMER HOPE ";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <div id="03">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTV-DfOr6Vhde9UBF2-577RV6jEbmU9wGIQQ&usqp=CAU"
+                alt="THE GRAVITY OF US book cover phpto">
+
+            <p>
+                Genre: Romance
+                <br>
+                Writer: Morgan Maxwell
+                <br>
+                Price: 240$
+            </p>
+
+            <button onclick="myFunction3()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction3() {
+                    var str = "You have successfully purchased a book named THE GRAVITY OF US ";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <div id="04">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTapc0ZsLrq1gFJ7YUwG_0L82Quy5gElbUPWw&usqp=CAU"
+                alt="AUTUMN IN PARADISE book cover photo">
+            <p>
+                Genre: Romance
+                <br>
+                Writer: ABC
+                <br>
+                Price: 50$
+            </p>
+            <button onclick="myFunction4()" class="buy"> BUY NOW</button>
+            <br>
+            <button onclick="cart()" class="cart">ADD TO CART</button>
+            <script>
+                function myFunction4() {
+                    var str = "You have successfully purchased a book named AUTUMN IN PARADISE";
+                    alert(str);
+                }
+            </script>
+        </div>
+
+        <script>
+
+            function cart() {
+                var str = "Your book has added to cart successfully !"
+                alert(str);
+            }
+        </script>
+
+
+</body>
+
+</html>
